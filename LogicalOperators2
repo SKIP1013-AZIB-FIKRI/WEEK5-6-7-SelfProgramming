@@ -1,0 +1,19 @@
+package selfProgramming;
+import java.util.Scanner;
+public class LogicalOperators2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println ("HI please enter your age : ");
+		int age = sc.nextInt();
+		System.out.println ("Please enter your daily income : ");
+		double income = sc.nextDouble();
+		double MIN_LEVEL = 5000 ;
+		
+		if ((income > MIN_LEVEL ) || (age <50))
+			   System.out.println ("Can Apply Loan");
+
+	}
+
+}
